@@ -1,7 +1,7 @@
 <!--
  * @Author: lengyan
  * @Date: 2023-06-05 10:01:54
- * @LastEditTime: 2023-06-06 17:30:08
+ * @LastEditTime: 2023-06-07 16:44:12
  * @LastEditors: lengyan
  * @Description: 
  * @FilePath: \webSystem\src\views\map\index.vue
@@ -11,6 +11,7 @@
     <Layers />
     <div id="mapContainer"></div>
     <BaseLayer />
+    <LinkData />
 </template>
 <script>
 import map from "./index.js";

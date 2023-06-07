@@ -1,7 +1,7 @@
 <!--
  * @Author: lengyan
  * @Date: 2023-06-05 15:17:43
- * @LastEditTime: 2023-06-05 17:13:13
+ * @LastEditTime: 2023-06-07 17:17:58
  * @LastEditors: lengyan
  * @Description: 
  * @FilePath: \webSystem\src\views\layers\index.vue
@@ -9,25 +9,37 @@
 <template>
     <div class="layers-area">
         <div class="title"></div>
-        <Search />
-        <Tree />
+        <div class="body">
+            <!-- <Search /> -->
+            <Tree />
+        </div>
+
     </div>
 </template>
 <script setup>
-import Search from './search/index.vue'
 import Tree from './tree/index.vue'
 </script>
 <style lang="scss" scoped>
 .layers-area {
     width: 400px;
     min-height: 500px;
-    height: calc(100% - 133px - 93px);
+    height: calc(100% - 133px - 92px);
     z-index: 1;
 
     position: absolute;
     top: 93px;
     left: 42px;
-    background: linear-gradient(90deg, rgba(109, 124, 146, 0.784), rgb(26, 52, 90) 50%, rgba(109, 124, 146, 0.75));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .body {
+        height: calc(100% - 57px);
+        background-color: rgba(255, 255, 255, 0.726);
+        border: 3px solid #5088DC;
+        border-radius: 10px;
+    }
 
     .title {
         width: 400px;

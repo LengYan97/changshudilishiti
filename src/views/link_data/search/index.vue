@@ -1,10 +1,10 @@
 <!--
  * @Author: lengyan
  * @Date: 2023-06-05 16:33:25
- * @LastEditTime: 2023-06-05 16:54:35
+ * @LastEditTime: 2023-06-07 17:18:55
  * @LastEditors: lengyan
  * @Description: 
- * @FilePath: \webSystem\src\views\layers\search\index.vue
+ * @FilePath: \webSystem\src\views\link_data\search\index.vue
 -->
 <template>
     <div class="search-area">
@@ -29,7 +29,7 @@ const onClickOutside = () => {
 <style lang="scss" scoped>
 .search-area {
     height: 37px;
-    width: 372px;
+    width: 347px;
     transition: 0.4s;
     margin: auto;
     margin-top: 12px;
@@ -42,7 +42,7 @@ const onClickOutside = () => {
         .el-input__wrapper {
             border-radius: unset;
             box-shadow: unset;
-            background: rgba(28, 49, 92, 0.31);
+            background: rgba(255, 255, 255, 0.31);
 
             .el-input__inner {
                 font-size: 16px;

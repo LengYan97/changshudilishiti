@@ -1,7 +1,7 @@
 <!--
  * @Author: lengyan
  * @Date: 2023-06-05 15:02:38
- * @LastEditTime: 2023-06-06 14:49:00
+ * @LastEditTime: 2023-06-07 15:53:05
  * @LastEditors: lengyan
  * @Description: 
  * @FilePath: \webSystem\src\views\head\index.vue
@@ -24,7 +24,7 @@ import Weather from './weather/index.vue'
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 67px;
+    height: 71px;
     background-image: url(@/assets/images/head/head_bk.png);
     background-size: 100% 100%;
     z-index: 999;

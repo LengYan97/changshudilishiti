@@ -4,9 +4,10 @@ import { defineComponent, onMounted, computed, ref, watch, inject, defineAsyncCo
 import Head from '@/views/head/index.vue'
 import Layers from '@/views/layers/index.vue'
 import BaseLayer from '@/views/baseLayer/index.vue'
+import LinkData from '@/views/link_data/index.vue'
 export default {
     name: 'csmap',
-    components: { Head, Layers, BaseLayer },
+    components: { Head, Layers, BaseLayer, LinkData },
     setup() {
         const initMap = async () => {
             try {
